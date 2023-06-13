@@ -33,9 +33,9 @@ input[type="button"]  {
     align-items: center;
 }
 .piedepagina {
-    position:absolute;
-    bottom:0;
-    right:0;
+    position: absolute;
+    top: 97%;
+    left: 88%;
 }
 
 a:link {
