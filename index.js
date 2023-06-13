@@ -1,3 +1,5 @@
+let m = 0;
+
 function dis(val) {
     document.getElementById("result").value += val;
 }
@@ -16,6 +18,14 @@ function myFunction(event) {
         || event.key == '+' || event.key == '-'
         || event.key == '*' || event.key == '/')
         document.getElementById("result").value += event.key;
+}
+
+function save() {
+    m = document.getElementById("result").value;
+}
+
+function release() {
+    document.getElementById("result").value += m;
 }
 
 var cal = document.getElementById("buttons");
